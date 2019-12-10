@@ -1,0 +1,40 @@
+HARAMBE SECONDCOMING README
+
+IMPORTANT NOTE ABOUT IMPORTING PROJECT:
+######################################################################################
+we did not export this properly. In order to import the project properly, assets, doc,
+and the map-new.txt file need to be in the project directory (not the SRC directory), but
+all other packages need to be within \src
+
+Sorry
+######################################################################################
+
+Running The Game
+
+Step 1: Run the clientserver.Server class as J Application (console will print out the port that is being listened on)
+Step 2: Run the gui. 0Menu class as J Application and input a username, address (will be localhost on same machine as server) and port number.
+
+At this point the Main GUI for the game sould have opened and you should be in the game world.
+
+To Move yur Penguin you can use W,A,S,D or click the map within your current or neighbouring location to move by mouse click.
+
+Walking over items will pick them up (floating device, key, teleporter, fish, banana, fishing rod)
+Right click items in the inventry to drop them or use/examine them.
+You may also right click items/objects on the map to examine the object or the ground beneath them.
+
+Equipping a floaty in the inventory will allow you to swim through water.
+Examine a key while its in your inventory to see its code, and right click a chest on the ground to see it's code, if you walk into a chest while holding the key with the same code
+you will recieve the contents of the chest (a banana).
+
+If you use a fishing rod will facing a water tile, you will fish and have a chance of catching a fish, if you catch a fish and then take it to an npc you will trade your fish for a banana
+
+Teleporters when used will teleport you back to the spawn location.
+
+Once you have recieved a banana in your inventory, you may right click it and use the siphon option, this will increase you banana count featured below the inventory on the UI.
+Once a player has reached 5 bananas the game will end and the name of the winning player will be displayed at the top of the newly created window.
+
+If you walk into the door of a house, you will be transported within the house, if you the walk back onto the doortile (visible from within the house) you will be transported back out of the house.
+
+NPCs will walk around with two possible strategies, talking to them during the day will either result in you getting a banana or no action, at night time the NPCs will become uncontactable and no longer move.
+
+Happy Exploring!!

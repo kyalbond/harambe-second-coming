@@ -1,0 +1,13 @@
+NPCStrategies
+clientserver
+core
+exceptions
+gameobjects
+gui
+iohandling
+items
+renderer
+testing
+tile
+util
+worldeditor
